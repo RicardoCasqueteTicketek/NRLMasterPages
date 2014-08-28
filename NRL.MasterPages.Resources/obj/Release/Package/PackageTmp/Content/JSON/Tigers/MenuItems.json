@@ -1,0 +1,17 @@
+﻿{   
+    "clubMenu": {
+        "Links":  [
+            {
+                "label" : "Membership Packages",
+                "link" : "Home.aspx"
+            },
+            {
+                "label" : "Members Portal",
+                "link" : "https://nrl.secure.force.com/nrlmembership/customLogin?clubid=103"
+            }
+            ]
+    },
+    "LogoLink": "http://www.weststigers.com.au/",
+    "SponsorLink": "http://www.meriton.com.au/",
+    "AdLink": "http://www.meriton.com.au/"
+ }

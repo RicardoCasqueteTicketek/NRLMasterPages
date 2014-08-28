@@ -1,0 +1,17 @@
+﻿{   
+    "clubMenu": {
+        "Links":  [
+            {
+                "label" : "Membership Packages",
+                "link" : "Home.aspx"
+            },
+            {
+                "label" : "Members Portal",
+                "link" : "https://nrl.secure.force.com/nrlmembership/customLogin?clubid=107"
+            }
+            ]
+    },
+    "LogoLink": "http://www.sharks.com.au/",
+    "SponsorLink": "",
+    "AdLink": ""
+ }

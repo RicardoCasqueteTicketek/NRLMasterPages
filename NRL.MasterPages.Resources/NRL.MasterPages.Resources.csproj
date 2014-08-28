@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1D4D761B-4111-4829-85C8-9480A05F60F8}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NRL.MasterPages.Resources</RootNamespace>
+    <AssemblyName>NRL.MasterPages.Resources</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>false</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <WebGreaseLibPath>..\packages\WebGrease.1.5.2\lib</WebGreaseLibPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Antlr3.Runtime">
+      <HintPath>..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.5.0.8\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+    </Reference>
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.0.0\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.0.0\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.0.0\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.0.0\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.0.0\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.0.0\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease">
+      <HintPath>..\packages\WebGrease.1.5.2\lib\WebGrease.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\ContentController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\CSS\Broncos\desktop.css" />
+    <Content Include="Content\CSS\Broncos\global.css" />
+    <Content Include="Content\CSS\Bulldogs\desktop.css" />
+    <Content Include="Content\CSS\Bulldogs\global.css" />
+    <Content Include="Content\CSS\commondesktop.css" />
+    <Content Include="Content\CSS\Dragons\desktop.css" />
+    <Content Include="Content\CSS\Dragons\global.css" />
+    <Content Include="Content\CSS\Eagles\desktop.css" />
+    <Content Include="Content\CSS\Eagles\global.css" />
+    <Content Include="Content\CSS\Eels\desktop.css" />
+    <Content Include="Content\CSS\Eels\global.css" />
+    <Content Include="Content\CSS\commonglobal.css" />
+    <Content Include="Content\CSS\Panthers\desktop.css" />
+    <Content Include="Content\CSS\Panthers\global.css" />
+    <Content Include="Content\CSS\QRL\desktop.css" />
+    <Content Include="Content\CSS\QRL\global.css" />
+    <Content Include="Content\CSS\Raiders\desktop.css" />
+    <Content Include="Content\CSS\Raiders\global.css" />
+    <Content Include="Content\CSS\Roosters\desktop.css" />
+    <Content Include="Content\CSS\Roosters\global.css" />
+    <Content Include="Content\CSS\Sharks\desktop.css" />
+    <Content Include="Content\CSS\Sharks\global.css" />
+    <Content Include="Content\CSS\Tigers\desktop.css" />
+    <Content Include="Content\CSS\Tigers\global.css" />
+    <Content Include="Content\CSS\Titans\desktop.css" />
+    <Content Include="Content\CSS\Titans\global.css" />
+    <Content Include="Content\CSS\Warriors\desktop.css" />
+    <Content Include="Content\CSS\Warriors\global.css" />
+    <Content Include="Content\Images\bg.png" />
+    <Content Include="Content\Images\Broncos\adspot.png" />
+    <Content Include="Content\Images\Broncos\background.jpg" />
+    <Content Include="Content\Images\Broncos\logo-mobile.png" />
+    <Content Include="Content\Images\Broncos\logo.png" />
+    <Content Include="Content\Images\Broncos\sponsor.png" />
+    <Content Include="Content\Images\Bulldogs\adspot.png" />
+    <Content Include="Content\Images\Bulldogs\background.jpg" />
+    <Content Include="Content\Images\Bulldogs\logo-mobile.png" />
+    <Content Include="Content\Images\Bulldogs\logo.png" />
+    <Content Include="Content\Images\Bulldogs\sponsor.png" />
+    <Content Include="Content\Images\Dragons\adspot.png" />
+    <Content Include="Content\Images\Dragons\background.jpg" />
+    <Content Include="Content\Images\Dragons\logo-mobile.png" />
+    <Content Include="Content\Images\Dragons\logo.png" />
+    <Content Include="Content\Images\Dragons\sponsor.png" />
+    <Content Include="Content\Images\Eagles\adspot.png" />
+    <Content Include="Content\Images\Eagles\background.jpg" />
+    <Content Include="Content\Images\Eagles\logo-mobile.png" />
+    <Content Include="Content\Images\Eagles\logo.png" />
+    <Content Include="Content\Images\Eagles\sponsor.png" />
+    <Content Include="Content\Images\Eels\adspot.png" />
+    <Content Include="Content\Images\Eels\background.jpg" />
+    <Content Include="Content\Images\Eels\logo-mobile.png" />
+    <Content Include="Content\Images\Eels\logo.png" />
+    <Content Include="Content\Images\Eels\sponsor.png" />
+    <Content Include="Content\Images\footer-sprite.png" />
+    <Content Include="Content\Images\home.png" />
+    <Content Include="Content\Images\menu-icon-close.png" />
+    <Content Include="Content\Images\menu-icon.png" />
+    <Content Include="Content\Images\Panthers\adspot.png" />
+    <Content Include="Content\Images\Panthers\background.jpg" />
+    <Content Include="Content\Images\Panthers\logo-mobile.png" />
+    <Content Include="Content\Images\Panthers\logo.png" />
+    <Content Include="Content\Images\Panthers\sponsor.png" />
+    <Content Include="Content\Images\QRL\adspot.png" />
+    <Content Include="Content\Images\QRL\background.jpg" />
+    <Content Include="Content\Images\QRL\logo-mobile.png" />
+    <Content Include="Content\Images\QRL\logo.png" />
+    <Content Include="Content\Images\QRL\sponsor.png" />
+    <Content Include="Content\Images\Raiders\adspot.png" />
+    <Content Include="Content\Images\Raiders\background.jpg" />
+    <Content Include="Content\Images\Raiders\logo-mobile.png" />
+    <Content Include="Content\Images\Raiders\logo.png" />
+    <Content Include="Content\Images\Raiders\sponsor.png" />
+    <Content Include="Content\Images\Roosters\adspot.png" />
+    <Content Include="Content\Images\Roosters\background.jpg" />
+    <Content Include="Content\Images\Roosters\logo-mobile.png" />
+    <Content Include="Content\Images\Roosters\logo.png" />
+    <Content Include="Content\Images\Roosters\sponsor.png" />
+    <Content Include="Content\Images\Sharks\adspot.png" />
+    <Content Include="Content\Images\Sharks\background.jpg" />
+    <Content Include="Content\Images\Sharks\logo-mobile.png" />
+    <Content Include="Content\Images\Sharks\logo.png" />
+    <Content Include="Content\Images\Sharks\sponsor.png" />
+    <Content Include="Content\Images\Tigers\adspot.png" />
+    <Content Include="Content\Images\Tigers\background.jpg" />
+    <Content Include="Content\Images\Tigers\logo-mobile.png" />
+    <Content Include="Content\Images\Tigers\logo.png" />
+    <Content Include="Content\Images\Tigers\sponsor.png" />
+    <Content Include="Content\Images\Titans\adspot.png" />
+    <Content Include="Content\Images\Titans\background.jpg" />
+    <Content Include="Content\Images\Titans\logo-mobile.png" />
+    <Content Include="Content\Images\Titans\logo.png" />
+    <Content Include="Content\Images\Titans\sponsor.png" />
+    <Content Include="Content\Images\Warriors\adspot.png" />
+    <Content Include="Content\Images\Warriors\background.jpg" />
+    <Content Include="Content\Images\Warriors\logo-mobile.png" />
+    <Content Include="Content\Images\Warriors\logo.png" />
+    <Content Include="Content\Images\Warriors\sponsor.png" />
+    <Content Include="Content\Javascript\googleAnalytics.js" />
+    <Content Include="Content\Javascript\menu.js" />
+    <Content Include="Content\Javascript\MenuGenerator.js" />
+    <Content Include="Global.asax" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+    <Content Include="Content\JSON\Broncos\MenuItems.json" />
+    <Content Include="Content\JSON\Bulldogs\MenuItems.json" />
+    <Content Include="Content\JSON\Dragons\MenuItems.json" />
+    <Content Include="Content\JSON\Eagles\MenuItems.json" />
+    <Content Include="Content\JSON\Eels\MenuItems.json" />
+    <Content Include="Content\JSON\Panthers\MenuItems.json" />
+    <Content Include="Content\JSON\QRL\MenuItems.json" />
+    <Content Include="Content\JSON\Raiders\MenuItems.json" />
+    <Content Include="Content\JSON\Roosters\MenuItems.json" />
+    <Content Include="Content\JSON\Sharks\MenuItems.json" />
+    <Content Include="Content\JSON\Tigers\MenuItems.json" />
+    <Content Include="Content\JSON\Titans\MenuItems.json" />
+    <Content Include="Content\JSON\Warriors\MenuItems.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NRL.MasterPages.Common\NRL.MasterPages.Common.csproj">
+      <Project>{c3ad3b65-cc12-4076-b2b9-35dfeab3946f}</Project>
+      <Name>NRL.MasterPages.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\PublishProfiles\PROD.NRL.Resources.pubxml" />
+    <None Include="Properties\PublishProfiles\UAT.NRL.Resources.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49996</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://resources.broncos.local</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>

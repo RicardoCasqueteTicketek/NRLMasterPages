@@ -1,0 +1,392 @@
+/***  background Images ***/
+.nrl-body, body.integratedBody {
+    background: #000 url(/jpg/background) no-repeat center top;
+}
+#nrl-logo {
+    background: url(/png/logo) no-repeat 0 0;
+}
+
+#nrl-sponsor a img {
+    width: 118px;
+    height: 90px;
+}
+   
+#nrl-AdLeaderboard a img {
+    width: 728px;
+    height: 90px;
+} 
+
+/***** Desktop for CRM *****/
+.nrl-body, body.integratedBody, html {
+	height: 100%;
+}
+#nrl-container {
+	width: 1007px;
+	margin: 0 auto;
+}
+
+
+/***** Type *****/
+/*h1 {
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-weight: 800;
+	font-size: 34px;
+	letter-spacing: -1px;
+	margin-bottom: 15px;
+}
+h2 {
+	font-size: 28px;
+	margin-bottom: 15px;
+}
+h3 {
+	font-size: 24px;
+	margin-bottom: 15px;
+}
+h4,h5,h6 {
+	font-size: 16px;
+	margin-bottom: 15px;
+}
+p,li,td,th {
+	font-size: 15px;
+	line-height: 1.4;
+}
+b, strong {
+	font-weight: 700;
+}*/
+
+
+/***** Table *****/
+/*td,th {
+	padding: 5px;
+	text-align: left;
+}
+input, textarea {
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-size: 15px;
+}*/
+
+
+/***** Header *****/
+#icon-menu {
+	display: none;
+}
+.nrl-header {
+	background: transparent;
+	height: 147px;
+}
+#nrl-logo {
+	position: absolute;
+	left: 0;
+	top: 9px;
+	width: 140px;
+	height: 137px;
+}
+#nrl-logo a {
+	display: block;
+	height: 137px;
+}
+.nrl-nav {
+	display: block;
+	height: 36px;
+	border-top-right-radius: 4px;
+	-moz-border-radius-topright: 4px;
+	-webkit-border-top-right-radius: 4px;
+	border-top-left-radius: 4px;
+	-moz-border-radius-topleft: 4px;
+	-webkit-border-top-left-radius: 4px;
+}
+.nrl-nav li {
+	float: left;
+	width: auto;
+	height: 36px;
+	list-style-type: none;
+	border-left: 1px solid rgba(0,0,0,0.2);
+}
+.nrl-nav li:first-child {
+	border:none;
+}
+
+.nrl-nav li.home a {
+	text-indent: -9999px;
+    background: url(/png/home) no-repeat 15px 11px;
+	/*background: url(../images/home.png) no-repeat 15px 11px;*/
+	width: 20px;
+	border-top-left-radius: 4px;
+	-moz-border-radius-topleft: 4px;
+	-webkit-border-top-left-radius: 4px;
+}
+.nrl-nav li.active a {
+	background-color: #fff;
+	color: #555;
+}
+.nrl-nav a,
+.nrl-nav a:visited {
+	padding: 0 12px;
+	line-height: 36px;
+	border: none;
+	color: #333;
+}
+.clubMenu
+#nrl-sponsor,
+#nrl-AdLeaderboard {
+	display: block;
+	position: absolute;
+}
+#nrl-sponsor {
+	width: 100px;
+	height: 80px;
+	top: 48px;
+	left: 147px;
+}
+#nrl-sponsor img {
+	width: 100%;
+	height: auto;
+}
+#nrl-AdLeaderboard {
+	right: 0;
+	bottom: 9px;
+	width: 728px;
+}
+
+#nrl-content {
+	background: #fff;
+	/*padding: 22px 22px 15px 22px;*/
+}
+
+
+/***** NRL Footer CSS *****/
+#nrlFooter {
+    background: url(/png/bg) repeat-x 0 0;
+	/*background: #000 url(../images/bg.png) repeat-x 0 0;*/
+	height: 271px;
+	display: block;
+}
+#nrlfWrapper {
+	width: 1000px;
+	margin: 0 auto;
+	position: relative;
+	height: 271px;
+	overflow: hidden;
+}
+#nrlfCol1,
+#nrlfCol2,
+#nrlfCol3,
+#nrlfCol4 {
+	position: absolute;
+	height: 220px;
+	top: 25px;
+	padding: 0 25px;
+	border-right: 1px solid #5a5a58;
+}
+#nrlfCol1 {
+	left: 0;
+	width: 201px;
+}
+#nrlfCol2 {
+	left: 201px;
+	width: 201px;
+}
+#nrlfCol3 {
+	left: 402px;
+	width: 399px;
+}
+#nrlfCol4 {
+	right: 0px;
+	left: auto;
+	width: 199px;
+	padding-right: 0;
+	border: none;
+}
+#nrlfWrapper ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+#nrlfWrapper ul li {
+	border-bottom:  1px solid #5a5a58;
+	padding: 0;
+	margin: 0;
+}
+#nrlfWrapper ul li:last-child,
+#nrlfWrapper ul li.last {
+	border-bottom:  none;
+}
+#nrlfWrapper a {
+    background: url(/png/footer-sprite);
+	/*background-image: url(../images/footer-sprite.png);*/
+	background-repeat: no-repeat;
+	display: block;
+	line-height: 1.2;
+	color: #ddd;
+	font-size: 13px;
+	text-decoration: none;
+	-webkit-transition: color .15s linear;
+	transition: color .15s linear;
+}
+#nrlfWrapper a:hover {
+	color: #fff;
+	text-decoration: none;
+	-webkit-transition: color .15s linear;
+	transition: color .15s linear;
+}
+
+
+/***** Column 1 *****/
+#nrlfCol1 ul li {
+	border:none;
+	float: left;
+	width: 32px;
+	margin-right: 6px;
+	margin-bottom: 10px;
+}
+#nrlfCol1 ul li a {
+	text-indent: -9999px;
+	height: 40px;
+}
+#nrlfCol1 ul li.last {
+	margin: 0;
+}
+#nrlfCol1 ul li.nrfl-nrl {
+	border-bottom:  1px solid #5a5a58;
+	float: none;
+	width: auto;
+	margin-bottom: 24px;
+}
+#nrlfCol1 ul li.nrfl-nrl a {
+	text-indent: 0;
+	height: 83px;
+	background-position: 0 -37px;
+	padding: 17px 0 0 72px;
+}
+#nrlfWrapper .nrlf-nswrl a {background-position: 1px -144px;}
+#nrlfWrapper .nrlf-qrl a {background-position: -39px -144px;}
+#nrlfWrapper .nrlf-crl a {background-position: 1px -248px;}
+#nrlfWrapper .nrlf-sa a {background-position: 1px -196px;}
+#nrlfWrapper .nrlf-nt a {background-position: -39px -248px;}
+#nrlfWrapper .nrlf-tas a {background-position: -39px -196px;}
+#nrlfWrapper .nrlf-vic a {background-position: -52px -808px;}
+#nrlfWrapper .nrlf-wa a {background-position: -52px -867px;}
+
+
+/***** Column 2 *****/
+#nrlfCol2 a {
+	background: none;
+	padding: 4px 0 0 0;
+	height: 19px;
+}
+#nrlfCol2 .nrlf-nrlcom {
+	border: none;
+}
+#nrlfCol2 .nrlf-nrlcom a {
+	height: 29px;
+	text-indent: -9999px;
+    background: url(/png/footer-sprite) no-repeat 0 4px;
+	/*background: url(../images/footer-sprite.png) no-repeat 0 4px;*/
+}
+
+
+/**** Column 3 *****/
+#nrlf-group1 {
+	height: 108px;
+	overflow: hidden;
+	position: relative;
+	border-bottom: 1px solid #5a5a58;
+}
+#nrlfCol3 ul li {
+	border: none;
+}
+#nrlfCol3 a {
+	text-indent: -9999px;
+}
+#nrlf-group1 a {
+	position: absolute;
+	top: 9px;
+	width: 52px;
+	height: 88px;
+}
+#nrlfWrapper .nrfl-kangaroos a {
+	left: 0;
+	background-position: 0 -332px;
+}
+#nrlfWrapper .nrfl-soo a {
+	left:77px;
+	background-position: 0 -421px;
+}
+#nrlfWrapper .nrfl-allstars a {
+	left: 152px;
+	background-position: 0 -513px;
+}
+#nrlfWrapper .nrfl-telstra a {
+	left: 227px;
+	background-position: 0 -613px;
+}
+#nrlfWrapper .nrfl-nyc a {
+	right: 0;
+	background-position: 3px -718px;
+}
+#nrlfWrapper #nrlf-group2 {
+	height: 112px;
+	position: relative;
+}
+#nrlfWrapper #nrlf-group2 a {
+	position: absolute;
+	width: 36px;
+	height: 36px;
+}
+#nrlfWrapper .nrlf-broncos a {background-position: 0 -813px;top: 23px;}
+#nrlfWrapper .nrlf-bulldogs a {background-position: 0 -853px;left:96px;top: 24px;}
+#nrlfWrapper .nrlf-raiders a {background-position: 0 -892px;left:48px;top: 23px;}
+#nrlfWrapper .nrlf-cowboys a {background-position: 0 -928px;left:-1px;top:71px;}
+#nrlfWrapper .nrlf-titans a {background-position: 0 -968px;left:180px;top: 23px;}
+#nrlfWrapper .nrlf-seaeagles a {background-position: 0 -1008px;left:226px;top: 23px;}
+#nrlfWrapper .nrlf-storm a {background-position: 0 -1047px;left:273px;top: 23px;}
+#nrlfWrapper .nrlf-knights a {background-position: 0 -1087px;left:317px;top: 23px;}
+#nrlfWrapper .nrlf-eels a {background-position: 0 -1130px;left:47px;top:71px;}
+#nrlfWrapper .nrlf-panthers a {background-position: 0 -1171px;left:92px;top:71px;}
+#nrlfWrapper .nrlf-sharks a {background-position: 0 -1208px;left:135px;top: 23px;}
+#nrlfWrapper .nrlf-rabbitohs a {background-position: 0 -1244px;left:137px;top:71px;}
+#nrlfWrapper .nrlf-dragons a {background-position: 0 -1283px;left:185px;top:71px;}
+#nrlfWrapper .nrlf-roosters a {background-position: 0 -1322px;left:225px;top:71px;}
+#nrlfWrapper .nrlf-warriors a {background-position: 0 -1362px;left:273px;top:71px;}
+#nrlfWrapper .nrlf-weststigers a {background-position: 0 -1401px;left:315px;top:71px;}
+
+
+/***** Column 4 *****/
+#nrlfCol4 ul li {
+	border: none;
+	text-align: center;
+}
+#nrlfCol4 .nrfl-playnrl a {
+	top: 10px;
+	left: 0;
+	height: 120px;
+	width: 129px;	
+	background: none;
+	padding-top: 6px;
+}
+.nrfl-playnrl em {
+    background: url(/png/footer-sprite) no-repeat 0 -1440px;
+	/*background: url(../images/footer-sprite.png) no-repeat 0 -1440px;*/
+	position: absolute;
+	top: 30px;
+	left: 64px;
+	width: 53px;
+	height: 69px;
+}
+#nrlfCol4 .nrlf-rloc a {
+	border: none;
+	width: 129px;
+	height: 114px;
+	left: 0;
+	top: 127px;
+	background: none;
+}
+.nrlf-rloc em {
+    background: url(/png/footer-sprite) no-repeat 0 -1513px;
+	/*background: url(../images/footer-sprite.png) no-repeat 0 -1513px;*/
+	position: absolute;
+	top: 153px;
+	left: 64px;
+	width: 53px;
+	height: 67px;
+}

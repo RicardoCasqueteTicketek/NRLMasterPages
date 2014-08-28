@@ -1,0 +1,23 @@
+/***** dragons *****/
+.nrl-header {
+	background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.49, #ac0053), /* top line */
+    color-stop(0.5, #83003f) /* bottom */
+	);
+	background-image: -moz-linear-gradient(
+	    center bottom,
+	    #ac0053 49%,
+	    #83003f 50%
+	);
+	background-image: linear-gradient(
+		to bottom, 
+		#ac0053 49%,
+	    #83003f 50%
+	);
+}
+#nrl-logo {
+	background-size: auto 100%;
+}

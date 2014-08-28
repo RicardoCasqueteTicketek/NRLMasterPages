@@ -1,0 +1,17 @@
+﻿{   
+    "clubMenu": {
+        "Links":  [
+            {
+                "label" : "Membership Packages",
+                "link" : "Home.aspx"
+            },
+            {
+                "label" : "Members Portal",
+                "link" : "https://nrl.secure.force.com/nrlmembership/customLogin?clubid=4"
+            }
+            ]
+    },
+    "LogoLink": "http://www.warriors.co.nz/",
+    "SponsorLink": "http://www.vodafone.co.nz/",
+    "AdLink": "http://www.vodafone.co.nz/"
+ }

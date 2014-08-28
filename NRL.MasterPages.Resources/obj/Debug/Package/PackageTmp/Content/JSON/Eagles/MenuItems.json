@@ -1,0 +1,17 @@
+﻿{   
+    "clubMenu": {
+        "Links":  [
+            {
+                "label" : "Membership Packages",
+                "link" : "Home.aspx"
+            },
+            {
+                "label" : "Members Portal",
+                "link" : "https://nrl.secure.force.com/nrlmembership/customLogin?clubid=102"
+            }
+            ]
+    },
+    "LogoLink": "http://www.mwse.com.au/",
+    "SponsorLink": "http://www.kaspersky.com.au/",
+    "AdLink": "http://www.kaspersky.com.au/"
+ }

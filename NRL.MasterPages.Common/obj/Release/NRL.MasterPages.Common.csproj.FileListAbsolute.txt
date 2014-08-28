@@ -1,0 +1,5 @@
+C:\Temp\NRLMasterPages\NRL.MasterPages.Common\bin\Release\NRL.MasterPages.Common.dll
+C:\Temp\NRLMasterPages\NRL.MasterPages.Common\bin\Release\NRL.MasterPages.Common.pdb
+C:\Temp\NRLMasterPages\NRL.MasterPages.Common\obj\Release\NRL.MasterPages.Common.csprojResolveAssemblyReference.cache
+C:\Temp\NRLMasterPages\NRL.MasterPages.Common\obj\Release\NRL.MasterPages.Common.dll
+C:\Temp\NRLMasterPages\NRL.MasterPages.Common\obj\Release\NRL.MasterPages.Common.pdb

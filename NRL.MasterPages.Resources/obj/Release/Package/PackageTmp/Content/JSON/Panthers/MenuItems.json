@@ -1,0 +1,17 @@
+﻿{   
+    "clubMenu": {
+        "Links":  [
+            {
+                "label" : "Membership Packages",
+                "link" : "Home.aspx"
+            },
+            {
+                "label" : "Members Portal",
+                "link" : "https://nrl.secure.force.com/nrlmembership/customLogin?clubid=98"
+            }
+            ]
+    },
+    "LogoLink": "http://www.penrithpanthers.com.au/",
+    "SponsorLink": "http://www.oak.com.au/",
+    "AdLink": "http://www.oak.com.au/"
+ }

@@ -1,0 +1,17 @@
+﻿{   
+    "clubMenu": {
+        "Links":  [
+            {
+                "label" : "Membership Packages",
+                "link" : "Home.aspx"
+            },
+            {
+                "label" : "Members Portal",
+                "link" : "https://nrl.secure.force.com/nrlmembership/customLogin?clubid=106"
+            }
+            ]
+    },
+    "LogoLink": "http://www.sydneyroosters.com.au/",
+    "SponsorLink": "http://www.steggles.com.au/",
+    "AdLink": "http://www.steggles.com.au/"
+ }

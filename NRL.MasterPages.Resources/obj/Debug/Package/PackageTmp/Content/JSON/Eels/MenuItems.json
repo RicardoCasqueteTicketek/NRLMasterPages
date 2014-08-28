@@ -1,0 +1,17 @@
+﻿{   
+    "clubMenu": {
+        "Links":  [
+            {
+                "label" : "Membership Packages",
+                "link" : "Home.aspx"
+            },
+            {
+                "label" : "Members Portal",
+                "link" : "https://nrl.secure.force.com/nrlmembership/customLogin?clubid=104"
+            }
+            ]
+    },
+    "LogoLink": "http://www.parraeels.com.au/",
+    "SponsorLink": "http://www.dyldam.com.au/",
+    "AdLink": "http://www.dyldam.com.au/"
+ }

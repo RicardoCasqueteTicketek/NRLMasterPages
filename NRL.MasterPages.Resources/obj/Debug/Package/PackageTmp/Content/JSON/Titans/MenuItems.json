@@ -1,0 +1,17 @@
+﻿{   
+    "clubMenu": {
+        "Links":  [
+            {
+                "label" : "Membership Packages",
+                "link" : "Home.aspx"
+            },
+            {
+                "label" : "Members Portal",
+                "link" : "https://nrl.secure.force.com/nrlmembership/customLogin?clubid=37"
+            }
+            ]
+    },
+    "LogoLink": "http://www.titans.com.au/",
+    "SponsorLink": "http://www.iselect.com.au/",
+    "AdLink": "http://www.iselect.com.au/"
+ }

@@ -1,0 +1,9 @@
+/***** Broncos Desktop *****/
+.nrl-nav {
+	background-color: #ffc423;
+	background-image: -webkit-linear-gradient(top,#ffd970 47%,#ffc423 53%);
+	background-image: -moz-linear-gradient(top,#ffd970 47%,#ffc423 53%);
+	background-image: -o-linear-gradient(top,#ffd970 47%,#ffc423 53%);
+	background-image: -ms-linear-gradient(top,#ffd970 47%,#ffc423 53%);
+	background-image: linear-gradient(top,#ffd970 47%,#ffc423 53%);
+}

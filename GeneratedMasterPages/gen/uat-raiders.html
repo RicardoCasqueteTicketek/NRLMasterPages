@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script src="http://code.jquery.com/jquery-2.1.1.js"></script>
+
+    <!-- Common CSS for all the Clubs -> Sets Font Size and Family -->
+    <!-- -> Sets Background Image because ALL THE CLUBS have the SAME NAME for that IMAGE, otherwise it would had to be done in the club specific one -->
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1">
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" media="screen" href="//resources.raiders.uat.ticketek.nrlmembership.com/css/commonglobal">
+    <link rel="stylesheet" href="//resources.raiders.uat.ticketek.nrlmembership.com/css/global">
+
+    <link rel="stylesheet" media="only screen and (min-width: 700px)" href="//resources.raiders.uat.ticketek.nrlmembership.com/css/commondesktop">
+    <link rel="stylesheet" href="//resources.raiders.uat.ticketek.nrlmembership.com/css/desktop">
+
+    <!-- Array with Menus -->
+    <script src="//resources.raiders.uat.ticketek.nrlmembership.com/json/menuItems"></script>
+
+    <!-- Script that will Generate the Menus based on a JSON Array -->
+    <script src="//resources.raiders.uat.ticketek.nrlmembership.com/script/MenuGenerator"></script>
+
+    <!-- Other Javascript -->
+    <script src="//resources.raiders.uat.ticketek.nrlmembership.com/script/menu"></script>
+    <script src="//resources.raiders.uat.ticketek.nrlmembership.com/script/googleAnalytics"></script>
+
+</head>
+<body class="nrl-body">
+    <div id="nrl-container">
+        <header class="nrl-header">
+            <div id="nrl-logo"><a><em></em></a></div>
+            <div id="nrl-sponsor"><a><img src="//resources.raiders.uat.ticketek.nrlmembership.com/Png/sponsor"></a></div>
+            <div id="nrl-AdLeaderboard"><a><img src="//resources.raiders.uat.ticketek.nrlmembership.com/Png/adspot"></a></div>
+        </header>
+        <nav class="nrl-nav clubMenu">
+            <ul class="nrl-menu-list"></ul>
+        </nav>
+        <div id="nrl-content">
+            <div id="nrl-contentWrapper">
+                
+<!--Master Page-->
+            </div>            
+            <div id="nrlFooter">
+    <div id="nrlfWrapper">
+        <div id="nrlfCol1">
+            <ul>
+                <li class="nrfl-nrl"><a href="http://www.nrl.com/">National Rugby League</a></li>
+                <li class="nrlf-nswrl"><a href="http://nswrl.com.au/">New South Wales Rugby League</a></li>
+                <li class="nrlf-qrl"><a href="http://qrl.com.au/">Queensland Rugby League</a></li>
+                <li class="nrlf-crl"><a href="http://crlnsw.com.au/">Country Rugby League</a></li>
+                <li class="nrlf-nt last"><a href="http://www.sportingpulse.com/assoc_page.cgi?client=7-719-0-0-0">Northern Territory Rugby League</a></li>
+                <li class="nrlf-sa"><a href="http://sarl.leaguenet.com.au/">South Australia Rugby League</a></li>
+                <li class="nrlf-tas"><a href="http://www.sportingpulse.com/assoc_page.cgi?assoc=2120&name=Tasmania%20Rugby%20League&client=%40%40%40%40%40%40%40%40%40%407%40">Tasmania Rugby League</a></li>
+                <li class="nrlf-vic"><a href="http://www.vrl.org.au/">Victorian Rugby League</a></li>
+                <li class="nrlf-wa last"><a href="http://www.warugbyleague.com.au/">Western Australia Rugby League</a></li>
+            </ul>
+        </div>
+        <div id="nrlfCol2">
+            <ul>
+                <li class="nrlf-nrlcom"><a href="http://www.nrl.com">NRL.com</a></li>
+                <li><a href="http://nrl.com/News/LatestNews/tabid/10244/Default.aspx">NRL News</a></li>
+                <li><a href="http://nrl.com/Video/tabid/10959/Default.aspx">NRL Videos</a></li>
+                <li><a href="http://fantasy.nrl.com/">NRL Fantasy</a></li>
+                <li><a href="ttp://tipping.nrl.com/">NRL Tipping</a></li>
+                <li><a href="http://nrl.com/TelstraPremiership/tabid/11227/Default.aspx">Telstra Premiership</a></li>
+                <li><a href="http://nrl.com/TicketsShop/tabid/11258/Default.aspx">Tickets and Shop</a></li>
+                <li><a href="http://nrl.com/DrawResults/TelstraPremiership/Draw/tabid/11180/Default.aspx">Match Centre</a></li>
+                <li class="last"><a href="http://nrl.com/Mobile/NRLIPhoneApp/tabid/11046/Default.aspx">NRL Live App</a></li>
+            </ul>
+        </div>
+        <div id="nrlfCol3">
+            <ul id="nrlf-group1">
+                <li class="nrfl-kangaroos"><a href="http://nrl.com/RepGames/Kangaroos/tabid/11072/Default.aspx">Kangaroos</a></li>
+                <li class="nrfl-soo"><a href="http://nrl.com/RepGames/Origin/tabid/11131/Default.aspx">State of Origin</a></li>
+                <li class="nrfl-allstars"><a href="http://nrl.com/RepGames/AllStars/tabid/10974/Default.aspx">Rugby League All Stars</a></li>
+                <li class="nrfl-nyc"><a href="http://nrl.com/TelstraPremiership/tabid/11227/Default.aspx">Telstra Premiership</a></li>
+                <li class="nrfl-telstra"><a href="http://nrl.com/HoldenCup/HoldenCupHome/tabid/11113/Default.aspx">Under 20s Cup</a></li>
+            </ul>
+            <ul id="nrlf-group2">
+                <li class="nrlf-broncos"><a href="http://www.broncos.com.au/">Broncos</a></li>
+                <li class="nrlf-raiders"><a href="http://www.raiders.com.au/">Raiders</a></li>
+                <li class="nrlf-bulldogs"><a href="http://www.bulldogs.com.au/">Bulldogs</a></li>
+                <li class="nrlf-cowboys"><a href="http://www.cowboys.com.au/">Cowboys</a></li>
+                <li class="nrlf-titans"><a href="http://www.titans.com.au/">Titans</a></li>
+                <li class="nrlf-seaeagles"><a href="http://www.mwse.com.au/">Sea-Eagles</a></li>
+                <li class="nrlf-storm"><a href="http://www.melbournestorm.com.au/">Storm</a></li>
+                <li class="nrlf-knights"><a href="http://www.newcastleknights.com.au/">Knights</a></li>
+                <li class="nrlf-eels"><a href="http://www.parraeels.com.au/">Eels</a></li>
+                <li class="nrlf-panthers"><a href="http://www.penrithpanthers.com.au/">Panthers</a></li>
+                <li class="nrlf-sharks"><a href="http://www.sharks.com.au/">Sharks</a></li>
+                <li class="nrlf-rabbitohs"><a href="http://therabbitohs.com.au/">Rabbitohs</a></li>
+                <li class="nrlf-dragons"><a href="http://www.dragons.com.au/">Dragons</a></li>
+                <li class="nrlf-roosters"><a href="http://www.sydneyroosters.com.au/">Roosters</a></li>
+                <li class="nrlf-warriors"><a href="http://thewarriors.com.au/">Warriors</a></li>
+                <li class="nrlf-weststigers"><a href="http://www.weststigers.com.au/">Wests Tigers</a></li>
+            </ul>
+        </div>
+        <div id="nrlfCol4">
+            <ul>
+                <li class="nrfl-playnrl"><a href="http://nrl.com/PlayNRL/tabid/11267/Default.aspx">Play NRL <em></em></a></li>
+                <li class="nrlf-rloc"><a href="http://www.rloc.com.au/">NRL One Community <em></em></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+        </div>
+    </div>
+</body>
+</html>
