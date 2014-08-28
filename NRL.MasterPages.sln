@@ -9,6 +9,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NRL.MasterPages.Resources",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NRL.MasterPages.Common", "NRL.MasterPages.Common\NRL.MasterPages.Common.csproj", "{C3AD3B65-CC12-4076-B2B9-35DFEAB3946F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProjectFiles", "ProjectFiles", "{BB641BD9-441F-44C0-BF33-C8A07E75FB14}"
+	ProjectSection(SolutionItems) = preProject
+		GeneratedMasterPages\HostFileEntries = GeneratedMasterPages\HostFileEntries
+		GeneratedMasterPages\wget.exe = GeneratedMasterPages\wget.exe
+		GeneratedMasterPages\wGetMasterPages.bat = GeneratedMasterPages\wGetMasterPages.bat
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
