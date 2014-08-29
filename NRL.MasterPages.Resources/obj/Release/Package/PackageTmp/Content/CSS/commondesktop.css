@@ -25,47 +25,6 @@
 	margin: 0 auto;
 }
 
-
-/***** Type *****/
-/*h1 {
-	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-	font-weight: 800;
-	font-size: 34px;
-	letter-spacing: -1px;
-	margin-bottom: 15px;
-}
-h2 {
-	font-size: 28px;
-	margin-bottom: 15px;
-}
-h3 {
-	font-size: 24px;
-	margin-bottom: 15px;
-}
-h4,h5,h6 {
-	font-size: 16px;
-	margin-bottom: 15px;
-}
-p,li,td,th {
-	font-size: 15px;
-	line-height: 1.4;
-}
-b, strong {
-	font-weight: 700;
-}*/
-
-
-/***** Table *****/
-/*td,th {
-	padding: 5px;
-	text-align: left;
-}
-input, textarea {
-	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-	font-size: 15px;
-}*/
-
-
 /***** Header *****/
 #icon-menu {
 	display: none;

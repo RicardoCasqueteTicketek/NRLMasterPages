@@ -6,7 +6,7 @@ wget -O .\gen\uat-bulldogs.html http://bulldogs.uat.ticketek.nrlmembership.com/H
 wget -O .\gen\uat-dragons.html 	http://dragons.uat.ticketek.nrlmembership.com/Home/Blank
 wget -O .\gen\uat-eagles.html 	http://eagles.uat.ticketek.nrlmembership.com/Home/Blank
 wget -O .\gen\uat-eels.html 	http://eels.uat.ticketek.nrlmembership.com/Home/Blank
-wget -O .\gen\uat-qrl.html 		http://qrl.uat.ticketek.nrlmembership.com/Home/Blank
+wget -O .\gen\uat-qrl.html 	http://qrl.uat.ticketek.nrlmembership.com/Home/Blank
 wget -O .\gen\uat-raiders.html 	http://raiders.uat.ticketek.nrlmembership.com/Home/Blank
 wget -O .\gen\uat-roosters.html http://roosters.uat.ticketek.nrlmembership.com/Home/Blank
 wget -O .\gen\uat-sharks.html 	http://sharks.uat.ticketek.nrlmembership.com/Home/Blank
