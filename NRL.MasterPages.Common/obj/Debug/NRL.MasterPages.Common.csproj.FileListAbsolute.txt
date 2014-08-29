@@ -3,3 +3,8 @@ C:\Temp\NRLMasterPages\NRL.MasterPages.Common\bin\Debug\NRL.MasterPages.Common.p
 C:\Temp\NRLMasterPages\NRL.MasterPages.Common\obj\Debug\NRL.MasterPages.Common.dll
 C:\Temp\NRLMasterPages\NRL.MasterPages.Common\obj\Debug\NRL.MasterPages.Common.pdb
 C:\Temp\NRLMasterPages\NRL.MasterPages.Common\obj\Debug\NRL.MasterPages.Common.csprojResolveAssemblyReference.cache
+C:\Users\steveb\Desktop\GitHub\NRLMasterPages\NRL.MasterPages.Common\bin\Debug\NRL.MasterPages.Common.dll
+C:\Users\steveb\Desktop\GitHub\NRLMasterPages\NRL.MasterPages.Common\bin\Debug\NRL.MasterPages.Common.pdb
+C:\Users\steveb\Desktop\GitHub\NRLMasterPages\NRL.MasterPages.Common\obj\Debug\NRL.MasterPages.Common.csprojResolveAssemblyReference.cache
+C:\Users\steveb\Desktop\GitHub\NRLMasterPages\NRL.MasterPages.Common\obj\Debug\NRL.MasterPages.Common.dll
+C:\Users\steveb\Desktop\GitHub\NRLMasterPages\NRL.MasterPages.Common\obj\Debug\NRL.MasterPages.Common.pdb
