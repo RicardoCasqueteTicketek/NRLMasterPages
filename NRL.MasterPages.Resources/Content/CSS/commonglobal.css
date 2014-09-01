@@ -1,10 +1,11 @@
 /**** Global.css for Brampton Finance *****/
 
+
 .nrl-header, hgroup, menu, .nrl-nav, section {
     display: block; 
 }
 
-.html, nrl-body, body.integratedBody, .nrl-header, .nrl-nav, .nrl-menu-item {
+.html, nrl-body, body.integratedBody, .nrl-header, .nrl-nav, menu, .nrl-menu-item {
     margin: 0;
     padding: 0;
     border: 0;
@@ -43,20 +44,6 @@ html {
 
 /***** Header *****/
 
-#icon-menu {
-	background: url(../images/menu-icon.png) no-repeat 0 0;
-	background-size: 100%;
-	width: 32px;
-	height: 32px;
-	position: absolute;
-	top: 6px;
-	left: 11px;
-	z-index: 9999;
-}
-#icon-menu.icon-menu-close {
-	background: url(../images/menu-icon-close.png) no-repeat 0 0;
-	background-size: 100%;
-}
 #nrl-sponsor,
 #nrl-AdLeaderboard {
 	display: none;
@@ -76,9 +63,6 @@ ul {
 .nrl-nav a,
 .nrl-nav a:visited {
 	display: block;
-	/*font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial;*/
-	/*font-size: 16px;
-	font-weight: 700;*/
 	color: #fff;
 	text-decoration: none;
 	padding: 11px;
@@ -94,8 +78,9 @@ ul {
 	height: 44px;
 	position: relative;
 }
-#nrl-logo {
-	height: 44px;
+#nrl-mobile-logo {
+    top: 0;
+    height: 44px;
 }
 #nrl-content {
 	/*padding: 12px;*/

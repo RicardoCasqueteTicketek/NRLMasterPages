@@ -175,6 +175,7 @@
     <Content Include="Content\Images\Eels\sponsor.png" />
     <Content Include="Content\Images\footer-sprite.png" />
     <Content Include="Content\Images\home.png" />
+    <Content Include="Content\Images\home_alt.png" />
     <Content Include="Content\Images\menu-icon-close.png" />
     <Content Include="Content\Images\menu-icon.png" />
     <Content Include="Content\Images\Panthers\adspot.png" />

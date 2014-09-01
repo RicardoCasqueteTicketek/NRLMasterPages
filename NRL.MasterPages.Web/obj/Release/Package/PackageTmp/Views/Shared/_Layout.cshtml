@@ -3,8 +3,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title></title>
+    <title>@Html.Title()</title>
+    @if (!Html.IsMarkOnlyUpRequest())
+    {
     <script src="http://code.jquery.com/jquery-2.1.1.js"></script>
+    }
 
     <!-- Common CSS for all the Clubs -> Sets Font Size and Family -->
     <!-- -> Sets Background Image because ALL THE CLUBS have the SAME NAME for that IMAGE, otherwise it would had to be done in the club specific one -->
@@ -33,14 +36,17 @@
 
 </head>
 <body class="nrl-body">
+    <i id="icon-menu" class="icon-menu"></i>
     <div id="nrl-container">
         <header class="nrl-header">
             <div id="nrl-logo"><a><em></em></a></div>
+            <div id="nrl-mobile-logo"><a><img src="//@Html.Resources()/Png/logo-mobile" height="44px"></a></div>
             <div id="nrl-sponsor"><a><img src="//@Html.Resources()/Png/sponsor"></a></div>
             <div id="nrl-AdLeaderboard"><a><img src="//@Html.Resources()/Png/adspot"></a></div>
         </header>
         <nav class="nrl-nav clubMenu">
-            <ul class="nrl-menu-list"></ul>
+            <ul class="nrl-menu-list"><li class="home"><a href="/">Home</a></li></ul>
+
         </nav>
         <div id="nrl-content">
             <div id="nrl-contentWrapper">

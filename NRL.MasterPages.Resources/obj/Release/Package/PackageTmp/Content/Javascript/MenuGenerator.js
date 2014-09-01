@@ -27,4 +27,5 @@
     $('#nrl-logo a').attr('href', menuItems.LogoLink);
     $('#nrl-sponsor a').attr('href', menuItems.SponsorLink);
     $('#nrl-AdLeaderboard a').attr('href', menuItems.AdLink);
+    $('.home a').attr('href', menuItems.HomeLink);
 });

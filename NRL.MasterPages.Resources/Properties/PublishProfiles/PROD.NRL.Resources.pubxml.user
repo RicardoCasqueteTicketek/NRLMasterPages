@@ -20,10 +20,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/29/2014 10:21:04</publishTime>
     </File>
     <File Include="bin/NRL.MasterPages.Common.dll">
-      <publishTime>08/29/2014 16:12:04</publishTime>
+      <publishTime>01/09/2014 13:32:36</publishTime>
     </File>
     <File Include="bin/NRL.MasterPages.Resources.dll">
-      <publishTime>08/29/2014 16:12:04</publishTime>
+      <publishTime>01/09/2014 18:15:01</publishTime>
     </File>
     <File Include="bin/System.Web.Helpers.dll">
       <publishTime>08/29/2014 10:21:04</publishTime>
@@ -50,88 +50,88 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/29/2014 10:21:04</publishTime>
     </File>
     <File Include="Content/CSS/Broncos/desktop.css">
-      <publishTime>08/29/2014 10:21:01</publishTime>
+      <publishTime>01/09/2014 18:10:31</publishTime>
     </File>
     <File Include="Content/CSS/Broncos/global.css">
-      <publishTime>08/29/2014 10:21:01</publishTime>
+      <publishTime>01/09/2014 16:42:59</publishTime>
     </File>
     <File Include="Content/CSS/Bulldogs/desktop.css">
-      <publishTime>08/29/2014 10:21:01</publishTime>
+      <publishTime>09/01/2014 18:08:08</publishTime>
     </File>
     <File Include="Content/CSS/Bulldogs/global.css">
-      <publishTime>08/29/2014 10:21:01</publishTime>
+      <publishTime>01/09/2014 13:30:06</publishTime>
     </File>
     <File Include="Content/CSS/commondesktop.css">
-      <publishTime>08/29/2014 16:11:26</publishTime>
+      <publishTime>09/01/2014 18:29:12</publishTime>
     </File>
     <File Include="Content/CSS/commonglobal.css">
-      <publishTime>08/29/2014 10:21:01</publishTime>
+      <publishTime>09/01/2014 18:04:34</publishTime>
     </File>
     <File Include="Content/CSS/Dragons/desktop.css">
-      <publishTime>08/29/2014 10:21:01</publishTime>
+      <publishTime>09/01/2014 18:08:38</publishTime>
     </File>
     <File Include="Content/CSS/Dragons/global.css">
-      <publishTime>08/29/2014 10:21:01</publishTime>
+      <publishTime>01/09/2014 13:30:07</publishTime>
     </File>
     <File Include="Content/CSS/Eagles/desktop.css">
-      <publishTime>08/29/2014 10:21:01</publishTime>
+      <publishTime>09/01/2014 18:08:37</publishTime>
     </File>
     <File Include="Content/CSS/Eagles/global.css">
-      <publishTime>08/29/2014 10:21:01</publishTime>
+      <publishTime>01/09/2014 13:30:07</publishTime>
     </File>
     <File Include="Content/CSS/Eels/desktop.css">
-      <publishTime>08/29/2014 10:21:01</publishTime>
+      <publishTime>01/09/2014 18:10:18</publishTime>
     </File>
     <File Include="Content/CSS/Eels/global.css">
-      <publishTime>08/29/2014 10:21:01</publishTime>
+      <publishTime>01/09/2014 13:30:07</publishTime>
     </File>
     <File Include="Content/CSS/Panthers/desktop.css">
-      <publishTime>08/29/2014 10:21:01</publishTime>
+      <publishTime>01/09/2014 18:10:18</publishTime>
     </File>
     <File Include="Content/CSS/Panthers/global.css">
-      <publishTime>08/29/2014 10:21:01</publishTime>
+      <publishTime>01/09/2014 13:30:07</publishTime>
     </File>
     <File Include="Content/CSS/QRL/desktop.css">
-      <publishTime>08/29/2014 10:21:01</publishTime>
+      <publishTime>01/09/2014 18:10:18</publishTime>
     </File>
     <File Include="Content/CSS/QRL/global.css">
-      <publishTime>08/29/2014 10:21:01</publishTime>
+      <publishTime>01/09/2014 13:30:07</publishTime>
     </File>
     <File Include="Content/CSS/Raiders/desktop.css">
-      <publishTime>08/29/2014 10:21:01</publishTime>
+      <publishTime>01/09/2014 18:10:18</publishTime>
     </File>
     <File Include="Content/CSS/Raiders/global.css">
-      <publishTime>08/29/2014 10:21:01</publishTime>
+      <publishTime>01/09/2014 13:30:07</publishTime>
     </File>
     <File Include="Content/CSS/Roosters/desktop.css">
-      <publishTime>08/29/2014 10:21:01</publishTime>
+      <publishTime>01/09/2014 18:10:18</publishTime>
     </File>
     <File Include="Content/CSS/Roosters/global.css">
-      <publishTime>08/29/2014 10:21:01</publishTime>
+      <publishTime>01/09/2014 13:30:07</publishTime>
     </File>
     <File Include="Content/CSS/Sharks/desktop.css">
-      <publishTime>08/29/2014 10:21:01</publishTime>
+      <publishTime>01/09/2014 18:10:18</publishTime>
     </File>
     <File Include="Content/CSS/Sharks/global.css">
-      <publishTime>08/29/2014 10:21:01</publishTime>
+      <publishTime>01/09/2014 13:30:07</publishTime>
     </File>
     <File Include="Content/CSS/Tigers/desktop.css">
-      <publishTime>08/29/2014 10:21:01</publishTime>
+      <publishTime>01/09/2014 18:10:18</publishTime>
     </File>
     <File Include="Content/CSS/Tigers/global.css">
-      <publishTime>08/29/2014 10:21:01</publishTime>
+      <publishTime>01/09/2014 13:30:07</publishTime>
     </File>
     <File Include="Content/CSS/Titans/desktop.css">
-      <publishTime>08/29/2014 10:21:01</publishTime>
+      <publishTime>01/09/2014 18:10:18</publishTime>
     </File>
     <File Include="Content/CSS/Titans/global.css">
-      <publishTime>08/29/2014 10:21:01</publishTime>
+      <publishTime>01/09/2014 13:30:07</publishTime>
     </File>
     <File Include="Content/CSS/Warriors/desktop.css">
-      <publishTime>08/29/2014 10:21:01</publishTime>
+      <publishTime>01/09/2014 18:10:18</publishTime>
     </File>
     <File Include="Content/CSS/Warriors/global.css">
-      <publishTime>08/29/2014 10:21:01</publishTime>
+      <publishTime>01/09/2014 13:30:07</publishTime>
     </File>
     <File Include="Content/Images/bg.png">
       <publishTime>08/29/2014 10:21:01</publishTime>
@@ -215,6 +215,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/29/2014 10:21:01</publishTime>
     </File>
     <File Include="Content/Images/home.png">
+      <publishTime>09/01/2014 18:23:39</publishTime>
+    </File>
+    <File Include="Content/Images/home_alt.png">
       <publishTime>08/29/2014 10:21:01</publishTime>
     </File>
     <File Include="Content/Images/menu-icon-close.png">
@@ -350,10 +353,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/29/2014 10:21:01</publishTime>
     </File>
     <File Include="Content/Javascript/MenuGenerator.js">
-      <publishTime>08/29/2014 10:21:01</publishTime>
+      <publishTime>09/01/2014 14:13:05</publishTime>
     </File>
     <File Include="Content/JSON/Broncos/MenuItems.json">
-      <publishTime>08/29/2014 10:21:01</publishTime>
+      <publishTime>01/09/2014 14:10:42</publishTime>
     </File>
     <File Include="Content/JSON/Bulldogs/MenuItems.json">
       <publishTime>08/29/2014 10:21:01</publishTime>

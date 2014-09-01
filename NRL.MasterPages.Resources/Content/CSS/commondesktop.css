@@ -5,7 +5,9 @@
 #nrl-logo {
     background: url(/png/logo) no-repeat 0 0;
 }
-
+#nrl-mobile-logo {
+	display:none;
+}
 #nrl-sponsor a img {
     width: 118px;
     height: 90px;
@@ -65,26 +67,7 @@
 	border:none;
 }
 
-.nrl-nav li.home a {
-	text-indent: -9999px;
-    background: url(/png/home) no-repeat 15px 11px;
-	/*background: url(../images/home.png) no-repeat 15px 11px;*/
-	width: 20px;
-	border-top-left-radius: 4px;
-	-moz-border-radius-topleft: 4px;
-	-webkit-border-top-left-radius: 4px;
-}
-.nrl-nav li.active a {
-	background-color: #fff;
-	color: #555;
-}
-.nrl-nav a,
-.nrl-nav a:visited {
-	padding: 0 12px;
-	line-height: 36px;
-	border: none;
-	color: #333;
-}
+
 .clubMenu {
 }
 #nrl-sponsor,
@@ -95,7 +78,7 @@
 #nrl-sponsor {
 	width: 100px;
 	height: 80px;
-	top: 48px;
+	top: 35px;
 	left: 147px;
 }
 #nrl-sponsor img {
@@ -104,7 +87,7 @@
 }
 #nrl-AdLeaderboard {
 	right: 0;
-	bottom: 9px;
+	bottom: 20px;
 	width: 728px;
 }
 

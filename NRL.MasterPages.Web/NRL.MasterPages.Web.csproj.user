@@ -5,7 +5,7 @@
     <WebStackScaffolding_IsPartialViewSelected>True</WebStackScaffolding_IsPartialViewSelected>
     <WebStackScaffolding_IsReferencingScriptLibrariesSelected>False</WebStackScaffolding_IsReferencingScriptLibrariesSelected>
     <WebStackScaffolding_LayoutPageFile />
-    <NameOfLastUsedPublishProfile>PROD.NRL.Web</NameOfLastUsedPublishProfile>
+    <NameOfLastUsedPublishProfile>UAT.NRL.Web</NameOfLastUsedPublishProfile>
   </PropertyGroup>
   <ProjectExtensions>
     <VisualStudio>

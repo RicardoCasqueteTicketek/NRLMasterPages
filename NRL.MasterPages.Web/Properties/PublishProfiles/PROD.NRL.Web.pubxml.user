@@ -20,10 +20,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/29/2014 10:21:04</publishTime>
     </File>
     <File Include="bin/NRL.MasterPages.Common.dll">
-      <publishTime>08/29/2014 16:12:04</publishTime>
+      <publishTime>09/01/2014 13:32:36</publishTime>
     </File>
     <File Include="bin/NRL.MasterPages.Web.dll">
-      <publishTime>08/29/2014 16:12:23</publishTime>
+      <publishTime>09/01/2014 13:33:05</publishTime>
     </File>
     <File Include="bin/System.Web.Helpers.dll">
       <publishTime>08/29/2014 10:21:04</publishTime>
@@ -65,7 +65,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/29/2014 10:21:03</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>08/29/2014 10:21:03</publishTime>
+      <publishTime>09/01/2014 16:57:14</publishTime>
     </File>
     <File Include="Views/Web.config">
       <publishTime>08/29/2014 10:21:03</publishTime>
